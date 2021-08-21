@@ -1,0 +1,25 @@
+{
+  "name": "newsletter_manager",
+  "version": "1.0.0",
+  "description": "A newsletter management app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeanDro/NewsLetter_Manager.git"
+  },
+  "author": "Konstantinos Drosos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeanDro/NewsLetter_Manager/issues"
+  },
+  "homepage": "https://github.com/DeanDro/NewsLetter_Manager#readme",
+  "dependencies": {
+    "electron-prebuilt": "^1.4.13"
+  },
+  "devDependencies": {
+    "electron": "^13.2.1"
+  }
+}
