@@ -1,6 +1,8 @@
 //This is a temporary class to hold the login information of the users
 
-class UsersLogin{
+'use strict'
+
+export class UsersLogin{
 
     constructor(){
         this.username = 'admin'
@@ -8,12 +10,7 @@ class UsersLogin{
     }
 
     getCredentials(){
-        login_credentials = [this.username, this.password]
-        return login_credentials
+        let credentials = [this.username, this.password]
+        return credentials
     }
-}
-
-
-export function getCredentials(){
-    return UsersLogin.getCredentials()
 }

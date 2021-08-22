@@ -1,10 +1,10 @@
 'use strict'
 
-import {getCredentials} from '../model/credentials.mjs'
+import {UsersLogin as Login} from '../model/credentials.mjs'
 
-let credentials = getCredentials()
+let credentials = new Login()
 
-console.log(getCredentials())
+console.log(credentials.getCredentials())
 
 /*
 function confirmLoginDetails(){
