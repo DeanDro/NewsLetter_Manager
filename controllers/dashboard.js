@@ -1,21 +1,13 @@
 'use strict'
 
-import {UsersLogin as Login} from '../model/credentials.mjs'
+document.getElementById('Submit').addEventListener('click', ()=>{
+    let user = document.getElementById('username')
+    let pass_word = document.getElementById('password')
 
-let credentials = new Login()
-
-console.log(credentials.getCredentials())
-
-/*
-function confirmLoginDetails(){
-    let username = document.getElementById('username')
-    let password = document.getElementById('password')
-
-    let credentials = loginData.getCredentials()
-    if (username === credentials[0] && password === credentials[1]){
-        alert('Confirm')
+    if (user.value == 'admin' && pass_word.value == 'admin'){
+        alert('Access approved')
+    } else {
+        alert('Access denied')
+        
     }
-}
-
-document.getElementById('Submit').onclick(confirmLoginDetails())
-*/
+})

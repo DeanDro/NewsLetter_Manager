@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron ."
   },
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DeanDro/NewsLetter_Manager.git"
