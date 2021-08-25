@@ -6,8 +6,9 @@ document.getElementById('Submit').addEventListener('click', ()=>{
 
     if (user.value == 'admin' && pass_word.value == 'admin'){
         alert('Access approved')
+        window.open('./views/html/dashboard.html', '_blank', 'width=1200, height=800')
     } else {
         alert('Access denied')
-        
+        window.close()
     }
 })

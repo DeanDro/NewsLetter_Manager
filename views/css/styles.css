@@ -1,0 +1,30 @@
+#login_form{
+    padding-top: 5%;
+}
+
+.form-group{
+    margin-top: 2%;
+}
+
+#left_menu{
+    background-color: black;
+    display: flex;
+    align-content: center;
+    padding: 2px;
+    height: 1000px;
+}
+
+#content_box{
+    color: cadetblue;
+}
+
+.card-img-top{
+    background: black;
+}
+
+.card{
+    background: black;
+    border: black solid 1px;
+    min-width: 50px;
+    max-width: 80px;
+}

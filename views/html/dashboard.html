@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>News Letter Management - Dashboard</title>
+        <!--Bootstrap Installing-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/styles.css" type="text/css">
+    </head>
+    <body>
+        <div class="container-fluid" id="main_container">
+            <div class="col-md-1" id="left_menu">
+                <div class="container">
+                    <a href="#" id="publish_link">
+                        <div class="card">
+                            <img class="card-img-top" src="../assets/small_send_mail.png" alt="publish" id="menu_icon">
+                            <div class="card-body">
+                                <p style="font-size: 12px; font-weight: bold;">Publish</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" id="upload_content_link">
+                        <div class="card">
+                            <img class="card-img-top" src="../assets/upload_cloud.png" alt="upload_content" id="menu_icon">
+                            <div class="card-body">
+                                <p style="font-size: 12px; font-weight: bold;">Upload Content</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" id="upload_images_link">
+                        <div class="card">
+                            <img class="card-img-top" src="../assets/images_folder.png" alt="upload_images" id="menu_icon">
+                            <div class="card-body">
+                                <p style="font-size: 12px; font-weight: bold;">Upload Images</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" id="templates">
+                        <div class="card">
+                            <img class="card-img-top" src="../assets/template_icon.png" alt="templates" id="menu_icon">
+                            <div class="card-body">
+                                <p style="font-size: 10px; font-weight: bold;">Templates</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3" id="middle_menu">
+                <div class="container" id="content_box">
+                </div>
+            </div>
+            <div class="col-md-8" id="right_menu">
+
+            </div>
+        </div>
+         <!--Bootstrap JS-->
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" 
+         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+         <script src="controllers/dashboard.js"></script>
+    </body>
+</html>
