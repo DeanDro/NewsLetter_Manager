@@ -10,53 +10,46 @@
     </head>
     <body>
         <div class="container-fluid" id="main_container">
-            <div class="col-md-1" id="left_menu">
-                <div class="container">
-                    <a href="#" id="publish_link">
-                        <div class="card">
-                            <img class="card-img-top" src="../assets/small_send_mail.png" alt="publish" id="menu_icon">
-                            <div class="card-body">
-                                <p style="font-size: 12px; font-weight: bold;">Publish</p>
+            <div class="row">
+                <div class="col-md-1" id="left_menu">
+                    <div class="container">
+                        <a href="#" id="publish_link">
+                            <div class="card">
+                                <img class="card-img-top" src="../assets/small_send_mail.png" alt="publish" id="menu_icon">
                             </div>
-                        </div>
-                    </a>
-                    <a href="#" id="upload_content_link">
-                        <div class="card">
-                            <img class="card-img-top" src="../assets/upload_cloud.png" alt="upload_content" id="menu_icon">
-                            <div class="card-body">
-                                <p style="font-size: 12px; font-weight: bold;">Upload Content</p>
+                        </a>
+                        <br>
+                        <a href="#" id="upload_content_link">
+                            <div class="card">
+                                <img class="card-img-top" src="../assets/upload_cloud.png" alt="upload_content" id="menu_icon">
                             </div>
-                        </div>
-                    </a>
-                    <a href="#" id="upload_images_link">
-                        <div class="card">
-                            <img class="card-img-top" src="../assets/images_folder.png" alt="upload_images" id="menu_icon">
-                            <div class="card-body">
-                                <p style="font-size: 12px; font-weight: bold;">Upload Images</p>
+                        </a>
+                        <br>
+                        <a href="#" id="upload_images_link">
+                            <div class="card">
+                                <img class="card-img-top" src="../assets/images_folder.png" alt="upload_images" id="menu_icon">
                             </div>
-                        </div>
-                    </a>
-                    <a href="#" id="templates">
-                        <div class="card">
-                            <img class="card-img-top" src="../assets/template_icon.png" alt="templates" id="menu_icon">
-                            <div class="card-body">
-                                <p style="font-size: 10px; font-weight: bold;">Templates</p>
+                        </a>
+                        <br>
+                        <a href="#" id="templates">
+                            <div class="card">
+                                <img class="card-img-top" src="../assets/template_icon.png" alt="templates" id="menu_icon">
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-3" id="middle_menu">
-                <div class="container" id="content_box">
+                <div class="col-md-3" id="middle_menu">
+                    <div class="container" id="content_box">
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-8" id="right_menu">
-
+                <div class="col-md-8" id="right_menu">
+                    <button type="submit" id="test_segment">Click</button>
+                </div>
             </div>
         </div>
          <!--Bootstrap JS-->
          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" 
          integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-         <script src="controllers/dashboard.js"></script>
+         <script src="../scripts/dashboardFunctionalilty.js"></script>
     </body>
 </html>

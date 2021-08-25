@@ -1,5 +1,6 @@
 'use strict'
 
+//Code for main login page
 document.getElementById('Submit').addEventListener('click', ()=>{
     let user = document.getElementById('username')
     let pass_word = document.getElementById('password')
@@ -12,3 +13,4 @@ document.getElementById('Submit').addEventListener('click', ()=>{
         window.close()
     }
 })
+
