@@ -11,3 +11,8 @@ screen.addEventListener('resize', ()=>{
         card_text.style.display = 'none'
     }
 })
+
+document.getElementById('upload_content_link').addEventListener('click', ()=>{
+    alert('hey')
+})
+
