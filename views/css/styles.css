@@ -7,7 +7,6 @@
 }
 
 #main_container{
-    background-color: chartreuse;
     height: 1000px;
 }
 
@@ -43,4 +42,9 @@
 #middle_menu{
     background-color: gray;
     height: 100%;
+}
+
+#page_layout{
+    margin-left: 20%;
+    margin-top: 5%;
 }
